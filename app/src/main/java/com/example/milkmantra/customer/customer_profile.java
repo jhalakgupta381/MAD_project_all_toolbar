@@ -23,7 +23,7 @@ public class customer_profile extends AppCompatActivity {
 
 
         logout=findViewById(R.id.Logout);
-        edit_profile=findViewById(R.id.Edit_profile);
+
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

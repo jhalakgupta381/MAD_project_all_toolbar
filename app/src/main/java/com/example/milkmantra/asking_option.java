@@ -20,6 +20,8 @@ public class asking_option extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_asking_option);
 
+        setSupportActionBar(R.id.myToolbar);
+
 
         skip=findViewById(R.id.skip);
         call=findViewById(R.id.call);
@@ -47,6 +49,9 @@ public class asking_option extends AppCompatActivity {
 
 
 
+    }
+
+    private void setSupportActionBar(int myToolbar) {
     }
 
 

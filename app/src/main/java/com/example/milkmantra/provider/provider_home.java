@@ -43,7 +43,7 @@ public class provider_home extends AppCompatActivity {
 
         // it for more
 
-        more=findViewById(R.id.More);
+
         more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
